@@ -20,7 +20,6 @@ rsync -a --delete \
   --exclude "node_modules" \
   --exclude "dist" \
   --exclude ".DS_Store" \
-  --exclude "raycast-env.d.ts" \
   "$ROOT_DIR"/ "$TARGET_DIR"/
 
 cat <<EOF
