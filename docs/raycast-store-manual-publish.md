@@ -52,5 +52,6 @@ The deploy key is attached only to `williebsweet/extensions`, so it cannot be us
 ## Notes
 
 - The sparse checkout only includes `extensions/obsidian-todo`.
-- The sync script excludes `.git`, `node_modules`, `dist`, `.DS_Store`, and `raycast-env.d.ts`.
+- The sync script excludes `.git`, `node_modules`, `dist`, and `.DS_Store`.
+- Keep `raycast-env.d.ts` in the submission payload because Raycast's generated `Preferences` type depends on it during CI type checking.
 - Keep using this repo for development. Use the sparse checkout only for Store submission branches.
