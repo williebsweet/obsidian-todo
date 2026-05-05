@@ -1,6 +1,6 @@
 {
-  "name": "obsidian-todo-manager",
-  "title": "Obsidian Todo Manager",
+  "name": "obsidian-todo",
+  "title": "Obsidian Todo",
   "description": "Add and manage markdown todos in your Obsidian ToDo note from Raycast.",
   "icon": "icon.png",
   "author": "williebsweet",
