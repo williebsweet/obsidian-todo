@@ -125,7 +125,6 @@ export default function Command() {
     return (
       <List
         isLoading={isLoading}
-        navigationTitle="Obsidian ToDo"
         searchBarPlaceholder="Search your Obsidian todos"
         actions={
           <SharedActions
@@ -157,7 +156,6 @@ export default function Command() {
   return (
     <List
       isLoading={isLoading}
-      navigationTitle="Obsidian ToDo"
       searchBarPlaceholder="Search your Obsidian todos"
       actions={
         <SharedActions
